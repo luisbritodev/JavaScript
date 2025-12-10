@@ -1,0 +1,58 @@
+
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Iniciando Javascript</title>
+  </head>
+  <body>
+     <h1>Conditionals</h1>
+    <script>
+
+        var age = 16;
+
+        // if (age >= 18) {
+
+        //     if (age >= 21) {
+        //         console.log('Você pode dirigir e beber. Mas não ao mesmo tempo.');
+        //     } else {
+        //         console.log('Você pode dirigir, mas não pode beber.');
+        //     }
+
+        // } else {
+        //     console.log('você é menor de idade.');
+        // }
+
+        if (age >= 80) {
+            console.log('Você é veterano. Por isso, não pode dirigir, mas pode beber.');
+        }  else if (age >= 21) {
+            console.log('Você é maior de idade. Por isso, pode dirigir e beber.');
+        }  else if (age >= 18) {
+            console.log('Você é maior de idade. Por isso, pode dirigir, mas não pode beber.');
+        }  else {
+            console.log('Você é menor de idade. Por isso, não pode dirigir nem beber');
+        }
+         
+        var temperatura = 38;
+
+        if ( temperatura > 35) {
+            console.log('Calor extremo.');
+        } else if (temperatura >= 25) {
+            console.log('Clima quente.'); 
+        } else if (temperatura >= 15) {
+            console.log('Clima agradável.');
+        } else if (temperatura >= 5) {
+            console.log('Clima frio');
+        } else {
+            console.log('Frio extremo.');
+        }
+        
+
+    </script>
+  </body>
+</html>
